@@ -1,0 +1,405 @@
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+body {
+	font-family: 'Roboto';
+	font-weight: 400;
+    font-size: 14px;
+    color: #000; 
+    margin: 0;
+    background: #fff;
+}
+a {
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    -ms-transition: all .4s;
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+img {
+    max-width: 100%;
+    width: auto;
+    vertical-align: middle;
+}
+div,ul,li,header,nav,section,span,article,h1,h2,h3,h4,h5,h6,p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.text-center {
+	text-align: center;
+}
+
+.page-wrapper {
+  position: relative;
+  min-height: calc(100vh - 50px);
+  padding-top: 25px;
+}
+
+.page-title-row {
+  padding: 40px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+  .page-title-row h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: black;
+}
+.page-title-row h3 span {
+  font-weight: 300;
+}
+.ptr-right {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.create-btn {
+    border-radius: 2px;
+    width: 94px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff!important;
+    background: #E28800;
+    margin-left: 10px;
+    border:0px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.invites-list th{
+    width: 25%;
+  }
+.invites-list tbody tr td{
+  width: 20%;
+}
+  
+.invites-list thead tr td{
+  width: 25%!important;
+}
+
+.tbl {
+    background: #F7F7F7; 
+  }
+  .tbl .table {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .tbl .table th {
+    font-size: 16px;
+    font-weight: 600;
+    color: #696969;
+    border-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  .tbl .table td {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  .tb-name {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .tb-name img {
+    width: 47px;
+    height: 47px;
+    border-radius: 7px;
+    border: solid thin #DFE1E2;
+  }
+  .tb-name-cont {
+    width: calc(100% - 47px);
+    padding-left: 10px;
+  }
+  .tb-name-cont h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .tb-name-cont p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #696969;
+    line-height: 14px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .tbl .table td.invite h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #393939;
+  }
+  .tbl .table td.invite p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9FA5A8;
+    line-height: 15px;
+  }
+
+  .width-10{
+    width: 5%!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+  } */
+
+  @import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+  
+  html, body, div, span, applet, object, iframe,  blockquote,  abbr, acronym, big, font, img, small, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td, input, textarea, select, a {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-family: 'Roboto', sans-serif;
+    vertical-align:baseline;
+    box-sizing:border-box;
+    text-decoration: none;
+    outline: none;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background:#eef3f8;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, button,p {
+    margin-bottom: 0;
+  }
+  a, a:hover { text-decoration: none; }
+  button { outline: none; }
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .text-center {
+	text-align: center;
+  }
+
+  .page-wrapper {
+    /* padding-left: 220px; */
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .header {
+    padding: 35px 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h3 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #222222;
+  }
+  .header a {
+    width: 121px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #fe4b03;
+    line-height: 35px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+  }
+
+  /*index*/
+
+.table-responsive {
+    margin: 20px;
+  }
+  .table-responsive  .table {
+    border-collapse: separate;
+    padding: 0px;
+    border-spacing: 15px;
+    width: 100%;
+    background: white;
+  }
+
+  .table-responsive .table thead tr {
+    box-shadow: 0 1px 0px 0 #00000017;
+  }
+  .table-responsive .table thead  tr  th {
+    border-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a3a8ae;
+    vertical-align: middle;
+    border-bottom: 0;
+    padding-bottom: 15px;
+  }
+  .table-responsive .table thead  tr  th input {
+    width: 179px;
+    height: 27px;
+    border-radius: 3px;
+    border: solid 1px #dfdfdf;
+    background-color: #fefefe;
+    line-height: 27px;
+    padding: 0 10px;
+  }
+
+  .table-responsive .table tbody tr {
+    box-shadow: 0 5px 8px 0 #00000017;
+    padding: 10px;
+  }
+  .table-responsive .table tbody tr td {
+    border-top: 0px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: normal;
+    color: #222222;
+    font-family: 'Cambay', sans-serif;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .width-30 {
+      width: 30%!important;
+  }
+  
+  .cent-position {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .create-main-container {
+    display: block;
+    flex-direction: row;
+  }
+
+  .input-group {
+    margin-bottom: 18px;
+    width: 350px;
+  }
+  .input-group p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8a8a8a;
+    margin-bottom: 5px;
+    font-family: 'Cambay', sans-serif;
+  }
+  .input-group p sup {
+    color: #ff1a1a;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 8px 10px 7px;
+    border-radius: 3px;
+    border: solid 1px #d4d4d4;
+    background-color: #fefefe;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    font-family: 'Cambay', sans-serif;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #fff;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: 27px;
+    line-height: 2;
+    border-radius: 3px;
+    border: solid 1px #dfdfdf;
+    background-color: #fefefe;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #222;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Cambay', sans-serif;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #fff;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+
+  .select-dimen{
+    height: 42px;
+    width: 100%;
+  }
+
+  .cu-btns {
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  .cu-btns  button {
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: solid 1px #fe4b03;
+    background-color: #fe4b03;
+    line-height: 32px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .error-span {
+    color: #ff1a1a;
+    font-size: 14px;
+  }
